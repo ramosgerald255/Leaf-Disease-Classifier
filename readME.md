@@ -9,7 +9,7 @@
 
 # Table of content
 - [Disease Classifier](#classifierInfo)
-- [Installation](#installation)
+- [Run Model](#runmodel)
 
 ## Disease Classifier
 
@@ -27,6 +27,13 @@ The whole disease classification process is divided into 3 stages as in
     
 - 8 CNN classifiers are trained to identify the diseases of each of the 8 plant classes.  The result from stage 2 is used to call the classifier that has been trained to classify the different diseases for that plant. If there are none, the leaf would be classified as 'Healthy'.
 
-- All the above CNN's are trained on ResNet-50 Architecture using "Transfer Learning" from the ImageNet weights.
+- All the above CNN's are trained on a Deep Residual Network- ResNet-50 Architecture using "Transfer Learning" from the ImageNet weights.
 
-## Installation
+- Frame works used : Keras, OpenCV, DarkNet.
+
+## Run Model
+
+- To run and setup the model, you’ll need at least OpenCV 3.4.2 to run this code.
+- Dataset structure used in the project :
+     * git clone https://github.com/deepakHonakeri05/yolo_dataset.git
+- The weights of the networks can be given on-demand due constraints set on GitHub. 
