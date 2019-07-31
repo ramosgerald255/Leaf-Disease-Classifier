@@ -1,8 +1,7 @@
 ## Leaf-Disease-Classifier
 
 * Leaf Disease Classifier classifies disease based on image processing techniques for automated vision system used at agricultural field. 
-* The classifier is trained on the dataset found at :
-
+* The classifier is trained on the dataset found at
       * https://www.kaggle.com/emmarex/plantdisease
       * https://github.com/spMohanty/PlantVillage-Dataset
       
@@ -16,12 +15,13 @@
 
 The whole disease classification process is divided into 3 stages as in 
 
-*block diagram here*
+<img src="./images/block_diagram.jpg" width="25" height="150">
 
 - An input image is initially taken, A You Only Look Once (YOLOv3), object detector is run over the input image to obtain the coordinates of bounding boxes around leaves present in the image if any. The detector divides the input image into a grid and then analyzes every cell to identify features of the target object. The adjacent cells where the features are detected with high confidence are then put together to produce the output of the model.
 
-*o/p yolo here*
-    
+<img src="./images/leaf_before_yolo.jpeg" width="25" height="150">
+<img src="./images/leaf_after_yolo.jpeg" width="25" height="150">
+
 - The leaves are then cropped out of the image using the OpenCV library using the given coordinates from the bounding boxes. These extracted images are passed as input to a CNN Classifier which classifies the input into the 8 classes of plants from the dataset. 
 
 *flow chart image main classifier----->sub-classes
