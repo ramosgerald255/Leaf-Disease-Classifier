@@ -6,8 +6,8 @@
       * https://github.com/spMohanty/PlantVillage-Dataset
 
 # Table of content
-- [Disease Classifier] (#classifierInfo)
-- [Installation] (#installation)
+- [Disease Classifier](#classifierInfo)
+- [Installation](#installation)
 
 ## Disease Classifier
 
