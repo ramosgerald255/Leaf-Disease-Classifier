@@ -2,8 +2,8 @@
 
 * Leaf Disease Classifier classifies disease based on image processing techniques for automated vision system used at agricultural field. 
 * The classifier is trained on the dataset found at
-      - https://www.kaggle.com/emmarex/plantdisease
-      - https://github.com/spMohanty/PlantVillage-Dataset
+   * https://www.kaggle.com/emmarex/plantdisease
+   * https://github.com/spMohanty/PlantVillage-Dataset
       
   *dataset images*
 
