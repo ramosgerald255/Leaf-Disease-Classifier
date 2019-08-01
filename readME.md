@@ -30,11 +30,13 @@ The whole disease classification process is divided into 3 stages as in
 
 - All the above CNN's are trained on a Deep Residual Network- ResNet-50 Architecture using "Transfer Learning" from the ImageNet weights.
 
-- Frame works used : Keras, OpenCV, DarkNet.
+<img src="./images/resnetACC.png" width="800" height="400">
+
+- Frameworks used : Keras, DarkNet.
 
 ## Run Model
 
-- To run and setup the model, you’ll need at least OpenCV 3.4.2 to run this code.
+- To run and setup the model, you’ll need at least OpenCV 3.4.2.
 - Dataset structure used in the project :
      * git clone https://github.com/deepakHonakeri05/yolo_dataset.git
 - The weights of the networks can be given on-demand due constraints set on GitHub. 
