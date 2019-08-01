@@ -30,7 +30,8 @@ The whole disease classification process is divided into 3 stages as in
 
 - All the above CNN's are trained on a Deep Residual Network- ResNet-50 Architecture using "Transfer Learning" from the ImageNet weights.
 
-<img src="./images/resnetACC.png" width="800" height="400">
+<img src="./images/resnetACC.png" width="400" height="200">
+Accuracy of the Disease classifier.
 
 - Frameworks used : Keras, DarkNet.
 
