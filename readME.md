@@ -28,6 +28,8 @@ The whole disease classification process is divided into 3 stages as in
     
 - 8 CNN classifiers are trained to identify the diseases of each of the 8 plant classes.  The result from stage 2 is used to call the classifier that has been trained to classify the different diseases for that plant. If there are none, the leaf would be classified as 'Healthy'.
 
+<img src="./images/subClasses.png" width="800" height="400">
+
 - All the above CNN's are trained on a Deep Residual Network- ResNet-50 Architecture using "Transfer Learning" from the ImageNet weights.
 
 [//]: # (<img src="./images/resnetACC.png" width="400" height="200">)
