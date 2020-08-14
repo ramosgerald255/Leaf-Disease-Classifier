@@ -2,8 +2,8 @@
 
 This section covers on how to train the <b>LeafNet</b> network. Again, this section is further divided into 2 parts:
 
-- 1. YOLOv3  (Darknet)
-- 2. Deep Residual network (Resnet 50)
+- YOLOv3  (Darknet)
+- Deep Residual network (Resnet 50)
 
 *<i><b>Note:</b></i> You might need a mass-file rename script file (rename.py) for training and annotating the train images for YOLOv3 (if you need).
 
@@ -14,13 +14,13 @@ This section covers on how to train the <b>LeafNet</b> network. Again, this sect
 
 - To train, I used the following tutorials and resources,
 
-- - https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2 : This tutorial starts off by intoducing YOLOv3 darknet and how to train (with details and helpful commands).
+    - https://medium.com/@manivannan_data/how-to-train-yolov3-to-detect-custom-objects-ccbcafeb13d2 : This tutorial starts off by intoducing YOLOv3 darknet and how to train (with details and helpful commands).
 
-- - https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36  : <b>USE</b> this tutorial <b>ONLY FOR</b> image/ data annotation, beacuse, this tutorial consists of training the model in YOLOv2.
+    - https://medium.com/@manivannan_data/how-to-train-yolov2-to-detect-custom-objects-9010df784f36  : <b>USE</b> this tutorial <b>ONLY FOR</b> image/ data annotation, beacuse, this tutorial consists of training the model in YOLOv2.
 
-- - https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool : Make use of this annotation tool for annotation of images. 
+    - https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool : Make use of this annotation tool for annotation of images. 
 
-- - https://github.com/deepakHonakeri05/darknet.git : (Forked from AlexeyAB --> pjreddy's github repository) In case if you are UNABLE to find YOLOv3 Darknet
+    - https://github.com/deepakHonakeri05/darknet.git : (Forked from AlexeyAB --> pjreddy's github repository) In case if you are UNABLE to find YOLOv3 Darknet
 
 
 <b>Important Note :</b> 
