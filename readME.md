@@ -1,15 +1,18 @@
-## Leaf-Disease-Classifier
+# Leaf-Disease-Classifier
 
 * Leaf Disease Classifier classifies disease based on image processing techniques for automated vision system used at agricultural field. 
+
+* Check out my resreach paper : deepakhonakeri.ml/static/docs/Research_paper_IJCSE.pdf
+
 * The classifier is trained on the dataset found at
    * https://www.kaggle.com/emmarex/plantdisease
    * https://github.com/spMohanty/PlantVillage-Dataset
-      
-  *dataset images*
+    
 
-# Table of content
-- [Disease Classifier](#classifierInfo)
-- [Run Model](#runmodel)
+# Deep Dive into Concepts
+- [Disease Classifier](##DiseaseClassifier)
+- [How To Train](##HowToTrain)
+- [Run Model](##RunModel)
 
 ## Disease Classifier
 
@@ -35,6 +38,11 @@ The whole disease classification process is divided into 3 stages as in
 [//]: # (<img src="./images/resnetACC.png" width="400" height="200">)
 
 - Frameworks used : Keras, DarkNet.
+
+
+# How-To-Train:
+
+<b> Check the "how_to_train" folder for detailed explanation on getting started and how to train the each of the models (explained in the next section) are trained.</b>
 
 ## Run Model
 
